@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation 5</title>
+
+  <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+  <link rel="stylesheet" href="bower_components/foundation/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+
+  <!-- If you are using the gem version, you need this only -->
+  <link rel="stylesheet" href="css/app.css">
+
+  <script src="bower_components/foundation/js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+
+  <!-- body content here -->
+  <div class="row">
+
+    <div class="large-11 columns">
+      <h1>Public Ideas for Interactive Public Art</h1>
+    </div>
+    <div class="large-1 columns th">
+      <a target="_blank" href="http://newamericanpublicart.com">
+        <img src="img/napa_logo.jpg" width="100px" height="100px">
+       </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <div id="playground"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-10 columns">
+      <textarea placeholder="Write a few words about your idea if you like"></textarea>
+    </div>
+  </div>
+
+  <script src="bower_components/foundation/js/vendor/jquery.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="bower_components/drawingboard.js/dist/drawingboard.min.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
